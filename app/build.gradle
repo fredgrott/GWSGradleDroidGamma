@@ -271,7 +271,7 @@ dependencies {
     //noinspection GroovyAssignabilityCheck
     androidTestCompile rootProject.ext.instrumentedDependencies.spoonClient
     //noinspection GroovyAssignabilityCheck
-    //androidTestCompile rootProject.ext.instrumentedDependencies.gwsdroidinsutil
+    androidTestCompile rootProject.ext.instrumentedDependencies.gwsdroidinsutil
 
     //noinspection GroovyAssignabilityCheck
     compile rootProject.ext.androidSupportDependencies.appCompat
